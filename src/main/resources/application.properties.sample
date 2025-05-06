@@ -1,0 +1,12 @@
+spring.application.name=ems
+server.port=
+
+# MySQL Datasource Configuration
+spring.datasource.url=
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+spring.datasource.username=
+spring.datasource.password=
+
+# JPA/Hibernate Configuration
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto=update
